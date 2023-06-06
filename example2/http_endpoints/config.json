@@ -1,9 +1,9 @@
 [
   {
-    "name": "TEST",
+    "name": "HW",
     "description": "",
     "method": "GET",
-    "endpoint": "/test",
+    "endpoint": "/HW",
     "data_source": {
       "cluster_id": 1379661944646165830
     },
@@ -12,7 +12,7 @@
       "timeout": 5000,
       "row_limit": 50
     },
-    "sql_file": "sql/GET-test.sql",
+    "sql_file": "sql/GET-HW.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
@@ -30,23 +30,6 @@
       "row_limit": 50
     },
     "sql_file": "sql/POST-POSTLY.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "HW",
-    "description": "",
-    "method": "GET",
-    "endpoint": "/HW",
-    "data_source": {
-      "cluster_id": 1379661944646165830
-    },
-    "params": [],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 50
-    },
-    "sql_file": "sql/GET-HW.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
